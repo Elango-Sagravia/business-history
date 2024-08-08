@@ -1,9 +1,9 @@
 const content = {
   homePage: {
     hero: {
-      title: "Grasp Geopolitics in No Time",
+      title: "Uncover the secrets of Business History",
       subTitle:
-        "Curious about global political dynamics and key events? Receive concise, expert analysis in our weekday newsletter.",
+        "For those curious about the stories behind legendary businesses and historic ventures. Get a captivating business history story delivered to your inbox every weekday!",
     },
   },
   subscribe: {
@@ -11,12 +11,13 @@ const content = {
   },
   advertise: {
     hero: {
-      title: "Our mission: Quick and clear geopolitical news",
+      title:
+        "Our mission: sharing captivating business history facts through engaging stories",
       subTitle:
-        "Connect with an international audience hungry for insightful geopolitical analysis.",
+        "Want to promote your brand to an engaged audience through business history stories?",
     },
     statusSection: {
-      heading: "Reach new heights with Geopolitical World",
+      heading: "Top brands advertise with Business History. Here's why:",
       list: [
         {
           title: "54%",
@@ -24,7 +25,7 @@ const content = {
         },
         {
           title: "10k",
-          description: "new subscribers join Geopolitical World monthly.",
+          description: "new subscribers join Business History monthly.",
         },
         {
           title: "2%",
@@ -34,16 +35,16 @@ const content = {
       ],
     },
     formSection: {
-      heading: "Take your brand global",
+      heading: "Showcase your brand to over 100,000 enthusiastic readers",
       subHeading:
-        "Connect with over 100,000 engaged readers worldwide. Let’s discuss how we can help elevate your brand.",
+        "Let's explore how we can promote your brand through compelling business history stories and reach a highly engaged, global audience.",
     },
   },
   archivePage: {
     formSection: {
       heading: "Unlock exclusive insights with our free subscription",
       description:
-        "Subscribe now to continue reading and receive geopolitical insights and expert analysis.",
+        "Subscribe now for full access to exclusive business history stories, insightful articles, and exclusive news alerts.",
     },
   },
   contactPage: {
@@ -51,15 +52,15 @@ const content = {
       list: [
         {
           question: "How do I subscribe to the newsletter?",
-          answer: `To subscribe, enter your email address in the subscription box and click "Join Free." Our newsletters are sent every weekday, ensuring you stay updated with concise geopolitical news and analysis.`,
+          answer: `To subscribe, enter your email address in the subscription box and click "Join Free." Our newsletters are sent every weekday, ensuring you stay updated with captivating business history stories.`,
         },
         {
           question: "How often will I receive newsletters?",
-          answer: `You will receive our newsletters every weekday, keeping you informed with daily geopolitical insights.`,
+          answer: `You will receive our newsletters every weekday, providing you with interesting business history stories and insights.`,
         },
         {
           question: "What type of content will be included in the newsletters?",
-          answer: `Our newsletters feature concise summaries of the most important geopolitical news, expert analysis, and key insights to keep you informed.`,
+          answer: `Our newsletters feature engaging business history stories, insightful articles, and key lessons from the past.`,
         },
         {
           question: "How do I unsubscribe or change my email preferences?",
