@@ -7,6 +7,7 @@ import Image from "next/image";
 import libre from "@/components/libre-font";
 import content from "@/content/content";
 import { Divide } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 export default function Hero() {
   const { isSubscribed } = useAppContext();
@@ -16,7 +17,9 @@ export default function Hero() {
       <div className="flex px-4 md:px-16 py-32 bg-nl_sec_background max-w-7xl mx-auto">
         <div className="flex-1">
           <h1
-            className={`text-nl_background text-4xl sm:text-5xl ${libre.className} leading-tight`}
+            className={`${cn(
+              `text-nl_background text-4xl sm:text-5xl ${libre.className} leading-tight sm:leading-tight`
+            )}`}
           >
             {content.homePage.hero.title}
           </h1>

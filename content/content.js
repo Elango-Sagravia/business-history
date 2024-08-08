@@ -1,10 +1,9 @@
 const content = {
   homePage: {
     hero: {
-      title:
-        "Heads of nations read a summary of the most important news every morning. Now, so will you.",
+      title: "Uncover the secrets of Business History",
       subTitle:
-        "Get the pulse of global politics and economics in your inbox. Quick, insightful reads every day.",
+        "For those curious about the stories behind legendary businesses and historic ventures. Get a captivating business history story delivered to your inbox every weekday!",
     },
   },
   subscribe: {
@@ -13,38 +12,39 @@ const content = {
   advertise: {
     hero: {
       title:
-        "Our mission: Bringing you the latest in geopolitical and macroeconomic insights.",
-      subTitle: "Want to reach thousands of curious minds around the world?",
+        "Our mission: sharing captivating business history facts through engaging stories",
+      subTitle:
+        "Want to promote your brand to an engaged audience through business history stories?",
     },
     statusSection: {
-      heading: "Why do industry leaders trust Presidential Summary?",
+      heading: "Top brands advertise with Business History. Here's why:",
       list: [
         {
           title: "54%",
-          description: "of our subscribers open our newsletters daily.",
+          description: "of our subscribers read our newsletters every weekday.",
         },
         {
           title: "10k",
-          description: "new subscribers join Presidential Summary every month.",
+          description: "new subscribers join Business History monthly.",
         },
         {
           title: "2%",
           description:
-            "of our active subscribers interact with our sponsored content every day",
+            "of our active subscribers engage with our sponsored content daily.",
         },
       ],
     },
     formSection: {
-      heading: "Expand your reach to 100,000+ global readers",
+      heading: "Showcase your brand to over 100,000 enthusiastic readers",
       subHeading:
-        "Join forces with Presidential Summary and connect with an audience deeply interested in global politics, geopolitics, and macroeconomics. Let’s work together to meet your marketing objectives.",
+        "Let's explore how we can promote your brand through compelling business history stories and reach a highly engaged, global audience.",
     },
   },
   archivePage: {
     formSection: {
       heading: "Unlock exclusive insights with our free subscription",
       description:
-        "Subscribe now for full access to exclusive articles, timely alerts, and newsletters on global politics and economics.",
+        "Subscribe now for full access to exclusive business history stories, insightful articles, and exclusive news alerts.",
     },
   },
   contactPage: {
@@ -52,19 +52,19 @@ const content = {
       list: [
         {
           question: "How do I subscribe to the newsletter?",
-          answer: `Simply enter your email in the subscription box and click "Join Free." Our newsletters are sent daily with the latest articles, news, and exclusive content. Occasionally, we may send special editions, but we promise not to spam you.`,
+          answer: `To subscribe, enter your email address in the subscription box and click "Join Free." Our newsletters are sent every weekday, ensuring you stay updated with captivating business history stories.`,
         },
         {
           question: "How often will I receive newsletters?",
-          answer: `You will receive our newsletters daily, ensuring you stay updated without overwhelming your inbox.`,
+          answer: `You will receive our newsletters every weekday, providing you with interesting business history stories and insights.`,
         },
         {
           question: "What type of content will be included in the newsletters?",
-          answer: `Our newsletters feature in-depth articles, real-time news alerts, and exclusive insights on global politics, geopolitics, and macroeconomics.`,
+          answer: `Our newsletters feature engaging business history stories, insightful articles, and key lessons from the past.`,
         },
         {
           question: "How do I unsubscribe or change my email preferences?",
-          answer: `To unsubscribe or update your email preferences, click the link provided at the bottom of any newsletter email.`,
+          answer: `To unsubscribe or update your email preferences, click the link provided at the bottom of any newsletter email. You can manage your subscription settings there.`,
         },
       ],
     },
