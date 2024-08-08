@@ -8,27 +8,28 @@ import content from "@/content/content";
 export default function Subscribe() {
   const { isSubscribed } = useAppContext();
   return (
-    <div
-      className={`bg-nl_sec_background px-4 md:px-16 ${
-        isSubscribed ? "py-36" : "py-28"
-      }`}
-    >
+    <div className="bg-nl_sec_background">
       <div
-        className={`mx-auto w-full md:w-3/5 lg:w-2/5 flex flex-col  items-center ${
-          isSubscribed && `lg:w-3/5`
+        className={`bg-nl_sec_background px-4 md:px-16 max-w-7xl mx-auto ${
+          isSubscribed ? "py-36" : "py-28"
         }`}
       >
-        <h5
-          className={`text-nl_background text-5xl text-center ${libre.className} leading-tight`}
+        <div
+          className={`mx-auto w-full md:w-3/5 lg:w-2/5 flex flex-col  items-center ${
+            isSubscribed && `lg:w-3/5`
+          }`}
         >
-          {isSubscribed
-            ? "Thank you for joining our newsletter"
-            : content.subscribe.title}
-        </h5>
-        {!isSubscribed && (
-          <SubscribeForm formClasses="mt-8 pb-2 flex w-4/5 flex-col gap-2" />
-        )}
-        {/* <form className="pt-4 pb-4 flex max-w-md mt-8 px-2">
+          <h5
+            className={`text-nl_background text-5xl text-center ${libre.className} leading-tight`}
+          >
+            {isSubscribed
+              ? "Thank you for joining our newsletter"
+              : content.subscribe.title}
+          </h5>
+          {!isSubscribed && (
+            <SubscribeForm formClasses="mt-8 pb-2 flex w-4/5 flex-col gap-2" />
+          )}
+          {/* <form className="pt-4 pb-4 flex max-w-md mt-8 px-2">
           <input
             style={{
               border: "1px solid",
@@ -56,6 +57,7 @@ export default function Subscribe() {
         <p className="text-sm self-start px-2">
           100% free. No spam. Unsubscribe anytime.
         </p> */}
+        </div>
       </div>
     </div>
   );

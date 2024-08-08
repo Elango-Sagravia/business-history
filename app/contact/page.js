@@ -5,7 +5,7 @@ import libre from "@/components/libre-font";
 
 export default function Contact() {
   return (
-    <main>
+    <main className="max-w-7xl mx-auto">
       <header className="px-4 md:px-16 py-20">
         <h1 className={`text-5xl text-nl_background ${libre.className}`}>
           Contact us

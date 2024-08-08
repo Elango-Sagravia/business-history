@@ -66,7 +66,10 @@ export default function AdvertiseForm() {
 
   const { quarter, budget, firstname, email, job, company, message } = details;
   return (
-    <section className="px-0 lg:px-16 lg:py-16" id="advertise-form">
+    <section
+      className="px-0 lg:px-16 lg:py-16 max-w-7xl mx-auto"
+      id="advertise-form"
+    >
       <div
         className={`px-4 md:px-16 py-32 bg-nl_sec_background flex flex-col sm:flex-row ${
           submitted && "min-h-96"
