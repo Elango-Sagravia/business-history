@@ -12,7 +12,7 @@ export default function GridContainer({
   return (
     <>
       <div
-        className={`grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-${md_col} lg:grid-cols-${lg_col} mt-8`}
+        className={`grid grid-cols-1 gap-8 sm:grid-cols-1 md:grid-cols-${md_col} lg:grid-cols-${lg_col} mt-8`}
       >
         {/* Component rendering */}
         {articles.map((item, i) => (

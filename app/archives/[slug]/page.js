@@ -2,6 +2,7 @@
 import blogs from "@/blogs";
 import BlogAuthorDetail from "@/components/ui/blogAuthorDetail/blogAuthorDetail";
 import BlogBannerImage from "@/components/ui/blogBannerImage/blogBannerImage";
+import BlogContentImage from "@/components/ui/blogContentImage/blogContentImage";
 import BlogHeading from "@/components/ui/blogHeading/blogHeading";
 import BlogInfo from "@/components/ui/blogInfo/blogInfo";
 import BlogPara from "@/components/ui/blogPara/blogPara";
@@ -39,7 +40,7 @@ export default function Home({ params }) {
   return (
     <>
       <section
-        className={`w-full md:w-3/5 lg:w-2/3 px-8 md:px-0 mx-auto pt-16 pb-16 md:pt-32 max-w-7xl ${
+        className={`w-full md:w-4/5 lg:w-2/3 px-4 md:px-0 mx-auto pt-16 pb-16 md:pt-32 max-w-7xl ${
           isSubscribed && "md:pb-32"
         }`}
       >
@@ -61,8 +62,14 @@ export default function Home({ params }) {
                 {item.content}
               </BlogPara>
             );
-          } else {
+          } else if (item.type === "h3") {
             return <BlogHeading key={index}>{item.content}</BlogHeading>;
+          } else if (item.type === "img") {
+            return (
+              <BlogContentImage key={index} url={item.link}>
+                {item.content}
+              </BlogContentImage>
+            );
           }
         })}
         {isSubscribed && <RelatedArticles articles={related_articles} />}
