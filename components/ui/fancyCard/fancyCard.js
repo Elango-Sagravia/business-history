@@ -32,13 +32,6 @@ export default function FancyCard({ article }) {
         >
           {article.title}
         </p>
-        <div className="px-16 mt-4 flex items-center">
-          <Avatar>
-            <AvatarImage src="https://github.com/shadcn.png" />
-            {/* <AvatarFallback>CN</AvatarFallback> */}
-          </Avatar>
-          <span className="ml-4 text-[12px]">By {article.author}</span>
-        </div>
       </Link>
     </div>
   );

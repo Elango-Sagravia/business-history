@@ -46,7 +46,7 @@ export default function Home({ params }) {
       >
         <BlogInfo date={post.published_at} read_time={post.read_time} />
         <BlogTitle title={post.title} />
-        <BlogAuthorDetail name={post.author} img={post.author_image} />
+        {/* <BlogAuthorDetail name={post.author} img={post.author_image} /> */}
         <BlogBannerImage url={post.banner_image} />
         {post.data.slice(0, cut_off).map((item, index) => {
           if (item.type === "p") {
