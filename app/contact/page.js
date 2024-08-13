@@ -5,8 +5,8 @@ import libre from "@/components/libre-font";
 
 export default function Contact() {
   return (
-    <main className="max-w-7xl mx-auto">
-      <header className="px-4 md:px-16 py-20">
+    <main>
+      <header className="px-4 lg:px-16 py-20 max-w-7xl mx-auto">
         <h1 className={`text-5xl text-nl_background ${libre.className}`}>
           Contact us
         </h1>

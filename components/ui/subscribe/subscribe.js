@@ -15,17 +15,32 @@ export default function Subscribe() {
         }`}
       >
         <div
-          className={`mx-auto w-full md:w-3/5 lg:w-2/5 flex flex-col  items-center ${
+          className={`mx-auto w-full md:w-3/5 lg:w-1/2 flex flex-col  items-center ${
             isSubscribed && `lg:w-3/5`
           }`}
         >
-          <h5
-            className={`text-nl_background text-5xl text-center ${libre.className} leading-tight`}
-          >
-            {isSubscribed
-              ? "Thank you for joining our newsletter"
-              : content.subscribe.title}
-          </h5>
+          {!isSubscribed && (
+            <h5
+              className={`text-nl_background text-4xl text-center ${libre.className} leading-tight`}
+            >
+              {content.subscribe.title}
+            </h5>
+          )}
+
+          {isSubscribed && (
+            <div className="flex flex-col sm:items-center">
+              <h5
+                className={`text-nl_background text-3xl sm:text-4xl ${libre.className} leading-tight`}
+              >
+                Thank you for subscribing.
+              </h5>
+              <p className="sm:w-2/3 mt-4 sm:text-center">
+                We sent you a welcome email. If you don't see it, check your
+                spam or junk folders.
+              </p>
+            </div>
+          )}
+
           {!isSubscribed && (
             <SubscribeForm formClasses="mt-8 pb-2 flex w-4/5 flex-col gap-2" />
           )}

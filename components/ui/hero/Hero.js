@@ -23,14 +23,17 @@ export default function Hero() {
           >
             {content.homePage.hero.title}
           </h1>
-          <p className="py-4">
-            For everyone curious about global politics, economic trends, and
-            macroeconomic policies, Get the 5-minute newsletter
-          </p>
+          <p className="py-4">{content.homePage.hero.subTitle}</p>
           {isSubscribed ? (
-            <p className="text-nl_background font-bold mt-10">
-              {content.homePage.hero.subTitle}
-            </p>
+            <>
+              <p className="text-nl_background font-bold mt-10 text-2xl">
+                Thank you for subscribing
+              </p>
+              <p className="mt-4 text-sm w-3/4 md:w-1/2 text-black/70">
+                We sent you a welcome email. If you don't see it, check your
+                spam or junk folders.
+              </p>
+            </>
           ) : (
             // <form
             //   className="mt-4 pb-2 flex w-3/4 md:w-2/3 flex-col gap-2"

@@ -4,7 +4,7 @@ import content from "@/content/content";
 
 export default function AdvertiseStatus() {
   return (
-    <div>
+    <div className="bg-black">
       <section className="px-4 md:px-16 py-28 bg-black text-white max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row">
           <div className="flex-1">

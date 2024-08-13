@@ -55,7 +55,7 @@ function SubscriberForm({ formClasses }) {
           required={true}
         />
         <Button className="rounded-none">
-          {loading ? <LoadingSpinner /> : "Join Free"}
+          {loading ? <LoadingSpinner /> : "Subscribe"}
         </Button>
       </div>
       <p className="text-[12px]">100% free. No spam. Unsubscribe anytime.</p>

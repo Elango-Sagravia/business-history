@@ -16,7 +16,9 @@ export default function FaqAccordion() {
           key={`faq-item-${index}`}
         >
           <AccordionTrigger
-            className={`font-normal no-underline ${index === 0 && "pt-0"}`}
+            className={`text-left font-normal no-underline ${
+              index === 0 && "pt-0"
+            }`}
           >
             {el.question}
           </AccordionTrigger>

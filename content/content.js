@@ -1,23 +1,25 @@
 const content = {
   homePage: {
     hero: {
-      title: "Uncover the secrets of Business History",
+      title:
+        "Intriguing stories that built (or broke) the greatest businesses.",
       subTitle:
-        "For those curious about the stories behind legendary businesses and historic ventures. Get a captivating business history story delivered to your inbox every weekday!",
+        "One story every weekday about iconic business magnets, their triumphs, and trials. A brief 3-minute read.",
     },
   },
   subscribe: {
-    title: "Gain insights, stay informed.",
+    title: "Stay informed, widen your worldview.",
   },
   advertise: {
     hero: {
       title:
-        "Our mission: sharing captivating business history facts through engaging stories",
+        "We share captivating stories about business moguls and the companies that shaped our world.",
       subTitle:
-        "Want to promote your brand to an engaged audience through business history stories?",
+        "To reach our engaged audience of 200,000 subscribers, contact us below.",
+      buttonText: "Advertise with us",
     },
     statusSection: {
-      heading: "Top brands advertise with Business History. Here's why:",
+      heading: "Reach new customers with Business History.",
       list: [
         {
           title: "54%",
@@ -35,16 +37,38 @@ const content = {
       ],
     },
     formSection: {
-      heading: "Showcase your brand to over 100,000 enthusiastic readers",
-      subHeading:
-        "Let's explore how we can promote your brand through compelling business history stories and reach a highly engaged, global audience.",
+      left: [
+        {
+          title: "General Inquiries",
+          type: "email",
+          href: "contact@businesshistory.co",
+          content: "contact@businesshistory.co",
+        },
+        {
+          title: "Front desk",
+          type: "phone",
+          href: "+1 (307) 429-0673",
+          content: "(307) 429-0673",
+        },
+        {
+          title: "Advertise with us",
+          type: "email",
+          href: "contact@businesshistory.co",
+          content: "contact@businesshistory.co",
+        },
+        {
+          title: "Speak to sales",
+          type: "link",
+          href: "contact@businesshistory.co",
+          content: "contact@businesshistory.co",
+        },
+      ],
     },
   },
   archivePage: {
     formSection: {
-      heading: "Unlock exclusive insights with our free subscription",
-      description:
-        "Subscribe now for full access to exclusive business history stories, insightful articles, and exclusive news alerts.",
+      heading: "Stay informed, widen your worldview.",
+      description: "",
     },
   },
   contactPage: {
@@ -52,15 +76,15 @@ const content = {
       list: [
         {
           question: "How do I subscribe to the newsletter?",
-          answer: `To subscribe, enter your email address in the subscription box and click "Join Free." Our newsletters are sent every weekday, ensuring you stay updated with captivating business history stories.`,
+          answer: `To subscribe, enter your email address in the subscription box and click "Join Free." Our newsletters are sent every weekday, ensuring you stay updated with concise geopolitical news and analysis.`,
         },
         {
           question: "How often will I receive newsletters?",
-          answer: `You will receive our newsletters every weekday, providing you with interesting business history stories and insights.`,
+          answer: `You will receive our newsletters every weekday, keeping you informed with daily geopolitical insights.`,
         },
         {
           question: "What type of content will be included in the newsletters?",
-          answer: `Our newsletters feature engaging business history stories, insightful articles, and key lessons from the past.`,
+          answer: `Our newsletters feature concise summaries of the most important geopolitical news, expert analysis, and key insights to keep you informed.`,
         },
         {
           question: "How do I unsubscribe or change my email preferences?",
