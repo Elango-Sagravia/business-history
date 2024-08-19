@@ -16,7 +16,7 @@ export default function FancyCard({ article }) {
       </div>
       <Link
         href={`archives/${article.slug}`}
-        className="flex-1 bg-black text-white flex flex-col justify-center py-8"
+        className="flex-1 bg-nl_new_sec_background text-black flex flex-col justify-center py-8"
       >
         <div className="flex items-center gap-2 py-4 px-4 sm:px-16 text-nl_background">
           <p className="text-[12px] font-bold uppercase">

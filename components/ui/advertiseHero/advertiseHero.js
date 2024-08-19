@@ -19,7 +19,7 @@ export default function AdvertiseHero() {
           </h1>
           <p className="pt-4 pb-8">{content.advertise.hero.subTitle}</p>
           <PrimaryInterLinkButton>
-            <ArrowDown size={18} color="hsl(2.69 73.58% 41.57%)" />
+            <ArrowDown size={18} color="hsl(10 62% 34%)" />
             <span className="px-2">{content.advertise.hero.buttonText}</span>
           </PrimaryInterLinkButton>
         </div>

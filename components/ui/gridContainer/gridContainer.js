@@ -50,7 +50,7 @@ export default function GridContainer({
             className="flex px-4 py-2 border items-center gap-2"
             href="/archives"
           >
-            <BookOpen size={18} color="hsl(2.69 73.58% 41.57%)" />
+            <BookOpen size={18} color="hsl(10 62% 34%)" />
             See archives
           </Link>
         </div>
