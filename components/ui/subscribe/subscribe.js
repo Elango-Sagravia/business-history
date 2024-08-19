@@ -42,7 +42,7 @@ export default function Subscribe() {
           )}
 
           {!isSubscribed && (
-            <SubscribeForm formClasses="mt-8 pb-2 flex w-4/5 flex-col gap-2" />
+            <SubscribeForm formClasses="mt-8 pb-2 flex w-full sm:w-4/5 flex-col gap-2" />
           )}
           {/* <form className="pt-4 pb-4 flex max-w-md mt-8 px-2">
           <input
