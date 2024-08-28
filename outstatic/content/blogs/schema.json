@@ -8,6 +8,13 @@
       "fieldType": "Number",
       "dataType": "number",
       "title": "Read Time"
+    },
+    "relatedArticles": {
+      "required": false,
+      "description": "enter slug of the published blogs with comma as separator",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Related articles"
     }
   }
 }
