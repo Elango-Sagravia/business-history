@@ -1,0 +1,13 @@
+{
+  "title": "blogs",
+  "type": "object",
+  "properties": {
+    "readTime": {
+      "required": true,
+      "description": "just enter the number",
+      "fieldType": "Number",
+      "dataType": "number",
+      "title": "Read Time"
+    }
+  }
+}
