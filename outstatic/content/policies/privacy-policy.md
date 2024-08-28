@@ -1,6 +1,6 @@
 ---
 title: 'Privacy Policy'
-status: 'draft'
+status: 'published'
 author:
   name: 'Camy'
   picture: ''
@@ -80,9 +80,9 @@ We may send periodic promotional emails to you. You have the right to prevent us
 - Right to Delete: You may request that we delete your Personal Information, subject to certain exceptions.
 - Right to Opt Out: You have the right to opt out of any "sales" of your Personal Information if applicable. For clarity, we do not sell your Personal Information.
 - Non-Discrimination: You have the right to not be discriminated against for exercising these rights.
-- Access to Your Personal Information: You may request access to your Personal Information by contacting us. If required by law, we will provide reasonable access to the Personal Information we have about you. 
-- Changes to Your Personal Information: We rely on you to update and correct your Personal Information. 
-- Deletion of Your Personal Information: Typically, we retain your Personal Information for the period necessary to fulfill the purposes outlined in this Privacy Notice. You may request information about how long we keep a specific type of information or request that we delete your Personal Information. If required by law, we will grant such requests. 
+- Access to Your Personal Information: You may request access to your Personal Information by contacting us. If required by law, we will provide reasonable access to the Personal Information we have about you.
+- Changes to Your Personal Information: We rely on you to update and correct your Personal Information.
+- Deletion of Your Personal Information: Typically, we retain your Personal Information for the period necessary to fulfill the purposes outlined in this Privacy Notice. You may request information about how long we keep a specific type of information or request that we delete your Personal Information. If required by law, we will grant such requests.
 - Objection to Certain Processing: You may object to our use or disclosure of your Personal Information by contacting us.
 - Promotional Emails: You may choose to provide us with your email address for sending free newsletters, surveys, offers, and other promotional materials. You can stop receiving promotional emails by following the unsubscribe instructions in those emails. Even if you opt-out of promotional emails, we may still send you service-related communications.
 - Revocation of Consent: If you revoke your consent for processing Personal Information, we may no longer be able to provide you with services. In some cases, we may limit or deny your request to revoke consent if permitted or required by law, or if we are unable to adequately verify your identity. You may revoke consent to processing by contacting us.
