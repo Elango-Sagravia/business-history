@@ -2,13 +2,15 @@ import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
 import libre from "@/components/libre-font";
+import changeFormat from "@/components/dateFormat";
 
 export default function FancyCard({ article }) {
+  console.log("article :>> ", article);
   return (
     <div className="flex mt-8 min-h-96 md:min-h-[410px]">
       <div className="hidden flex-1 sm:block relative">
         <Image
-          src={article.banner_image}
+          src={article.coverImage}
           alt="Example"
           layout="fill"
           objectFit="cover"
@@ -20,11 +22,11 @@ export default function FancyCard({ article }) {
       >
         <div className="flex items-center gap-2 py-4 px-4 sm:px-16 text-nl_background">
           <p className="text-[12px] font-bold uppercase">
-            {article.published_at}
+            {changeFormat(article.publishedAt)}
           </p>
           <p className="rounded-full bg-nl_background w-[5px] h-[5px]"></p>
           <p className="text-[12px] font-bold uppercase">
-            {article.read_time} READ
+            {article.readTime} MIN READ
           </p>
         </div>
         <p

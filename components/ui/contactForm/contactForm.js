@@ -303,7 +303,7 @@ export default function ContactForm() {
                       <Link
                         className="underline underline-offset-4"
                         target="_blank"
-                        href="/privacy-policy"
+                        href="/policy/privacy-policy"
                       >
                         Privacy Policy
                       </Link>

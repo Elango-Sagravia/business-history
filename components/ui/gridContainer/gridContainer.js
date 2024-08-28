@@ -2,6 +2,7 @@ import Image from "next/image";
 import { BookOpen } from "lucide-react";
 import Link from "next/link";
 import libre from "@/components/libre-font";
+import changeFormat from "@/components/dateFormat";
 
 export default function GridContainer({
   hideButton,
@@ -23,7 +24,7 @@ export default function GridContainer({
           >
             <div className="relative min-h-[250px]">
               <Image
-                src={item.banner_image}
+                src={item.coverImage}
                 alt="Example"
                 layout="fill"
                 objectFit="cover"
@@ -32,11 +33,11 @@ export default function GridContainer({
             </div>
             <div className="flex items-center gap-2 py-2 text-nl_background">
               <p className="text-[10px] font-bold uppercase">
-                {item.published_at}
+                {changeFormat(item.publishedAt)}
               </p>
               <p className="rounded-full bg-nl_background w-[5px] h-[5px]"></p>
               <p className="text-[10px] font-bold uppercase">
-                {item.read_time} READ
+                {item.readTime} MIN READ
               </p>
             </div>
             <p className={`text-lg ${libre.className}`}>{item.title}</p>
