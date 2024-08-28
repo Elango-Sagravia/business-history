@@ -15,6 +15,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Related articles"
+    },
+    "latest": {
+      "required": false,
+      "description": "to show under latest in home page",
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "Latest"
     }
   }
 }
