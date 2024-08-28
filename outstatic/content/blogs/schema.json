@@ -22,6 +22,13 @@
       "fieldType": "Boolean",
       "dataType": "boolean",
       "title": "Latest"
+    },
+    "cutOff": {
+      "required": true,
+      "description": "",
+      "fieldType": "Number",
+      "dataType": "number",
+      "title": "cutOff"
     }
   }
 }
