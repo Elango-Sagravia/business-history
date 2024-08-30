@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 export default function AdvertiseHero() {
   return (
     <div>
-      <div className="flex px-4 md:px-16 py-28 min-h-[600px] max-w-7xl mx-auto">
+      <div className="flex px-4 md:px-16 py-28 min-h-[650px] max-w-7xl mx-auto">
         <div className="flex-1">
           <h1
             className={`${cn(

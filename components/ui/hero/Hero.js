@@ -14,7 +14,7 @@ export default function Hero() {
 
   return (
     <div className="bg-nl_sec_background">
-      <div className="flex px-4 md:px-16 py-32 bg-nl_sec_background max-w-7xl mx-auto min-h-[600px]">
+      <div className="flex px-4 md:px-16 py-32 bg-nl_sec_background max-w-7xl mx-auto min-h-[650px]">
         <div className="flex-1">
           <h1
             className={`${cn(
@@ -58,7 +58,7 @@ export default function Hero() {
         </div>
         <div className="hidden flex-1 lg:block relative">
           <Image
-            src={"/home-hero.svg"}
+            src={"/home-hero.jpg"}
             layout="fill"
             objectFit="cover"
             alt="Home screen banner image"
