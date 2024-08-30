@@ -25,7 +25,7 @@ export default function AdvertiseHero() {
         </div>
         <div className="hidden flex-1 lg:block relative">
           <Image
-            src={"/sdvertise-hero.svg"}
+            src={"/sdvertise-hero.jpg"}
             layout="fill"
             objectFit="cover"
             alt="Home screen banner image"
