@@ -8,13 +8,13 @@ const HTMLContent = ({ contentString, blogCutOff, enableCutOff }) => {
   useEffect(() => {
     // Define custom styles for different HTML elements
     const customStyles = {
-      h2: "text-4xl font-bold my-4",
-      h3: "text-3xl font-bold my-4",
+      h2: "text-3xl font-bold my-4",
+      h3: "text-2xl font-bold my-4",
       p: "mb-4",
       img: "max-w-full h-auto",
       a: "text-blue-500 hover:text-blue-700",
       ol: "list-decimal list-inside mb-4",
-      ol: "list-disc list-inside mb-4",
+      ul: "list-disc list-inside mb-4",
       li: "ml-4",
     };
 
