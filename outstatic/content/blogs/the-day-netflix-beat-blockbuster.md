@@ -18,13 +18,13 @@ Here is a piece of nostalgia for all the 90s and 2000s kids and teens. Remember 
 
 Netflix was started because someone was frustrated with Blockbuster's late fees. While
 
-It was a staple of American childhood, and the late fees were annoying. In 1998, Neal Hasting, the co-founder of Netflix, got angry over a $40 late fee. He decided to open his DVD rental service, where people could send their DVDs back whenever they wanted. 
+It was a staple of American childhood, and the late fees were annoying. In 1998, Neal Hasting, the co-founder of Netflix, got angry over a $40 late fee. He decided to open his DVD rental service, where people could send their DVDs back whenever they wanted.
 
-Funny enough, in 2000, Blockbuster had the chance to buy Netflix out for about 50 million. Blockbuster sneered at this offer and laughed at it. At the time, Netflix was only making a few million, while Blockbuster was in the billions. However, it would quickly fall to its demise. 
+Funny enough, in 2000, Blockbuster had the chance to buy Netflix out for about 50 million. Blockbuster sneered at this offer and laughed at it. At the time, Netflix was only making a few million, while Blockbuster was in the billions. However, it would quickly fall to its demise.
 
-![](/images/the-day-netflix-beat-blockbuster-AxNT.webp)
+![Netflix](/images/the-day-netflix-beat-blockbuster-AxNT.webp)
 
-The company's reliance on this traditional model centered around physical rentals and late fees proved to be its undoing as consumer preferences shifted. It simply didn't want to adapt to the new needs of the times. Blockbuster had relatively high operational costs, including rent for its vast network of physical stores, which became expensive. The company's revenue depended on these annoying late fees, accounting for a substantial portion of its income. 
+The company's reliance on this traditional model centered around physical rentals and late fees proved to be its undoing as consumer preferences shifted. It simply didn't want to adapt to the new needs of the times. Blockbuster had relatively high operational costs, including rent for its vast network of physical stores, which became expensive. The company's revenue depended on these annoying late fees, accounting for a substantial portion of its income.
 
 A couple of other factors also helped, such as broadband internet becoming more widespread, Netflix's model of online streaming, and subscription-based rentals gaining popularity. In contrast, Blockbuster's physical rental model became increasingly outdated. It was much easier, and the novelty of picking up a movie from the shop faded away.
 
