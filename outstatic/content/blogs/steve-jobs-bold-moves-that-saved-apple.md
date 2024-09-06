@@ -2,7 +2,7 @@
 cutOff: '4'
 latest: 'true'
 relatedArticles: ''
-readTime: '5'
+readTime: '2'
 coverImage: '/images/apple-s-near-bankruptcy-and-revival-M1MD.webp'
 description: ''
 slug: 'steve-jobs-bold-moves-that-saved-apple'
