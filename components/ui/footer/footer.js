@@ -11,11 +11,8 @@ export default function Footer() {
                 <img src="/logo-dark.png" layout="responsive" alt="Logo" />
               </div>
             </Link>
-            <div className="flex">
-              <p className="mt-4 text-[12px] text-gray-400">
-                &copy; 2024 All rights reserved
-              </p>
-              <ul className="flex mt-4 ml-4">
+            <div className="flex flex-col">
+              <ul className="flex mt-8">
                 <li className="underline hover:underline underline-offset-8 text-[12px] text-gray-400">
                   <Link href="/policy/privacy-policy">Privacy policy</Link>
                 </li>
@@ -29,6 +26,13 @@ export default function Footer() {
                   <Link href="/policy/refund-policy">Refund policy</Link>
                 </li>
               </ul>
+              <p className="mt-8 text-[12px] text-gray-400">
+                This newsletter and website are operated by Sagravia LLC, 30 N
+                Gould St, Sheridan, WY 82801.
+              </p>
+              <p className="mt-8 text-[12px] text-gray-400">
+                © 2024 Sagravia LLC. All rights reserved.
+              </p>
             </div>
           </div>
           <div>
@@ -85,7 +89,11 @@ export default function Footer() {
             </ul>
           </div>
           <p className="mt-8 text-[12px] text-gray-400">
-            &copy; 2024 All rights reserved
+            This newsletter and website are operated by Sagravia LLC, 30 N Gould
+            St, Sheridan, WY 82801
+          </p>
+          <p className="mt-8 text-[12px] text-gray-400">
+            © 2024 Sagravia LLC. All rights reserved.
           </p>
         </div>
       </footer>

@@ -23,7 +23,10 @@ function SubscriberForm({ formClasses }) {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email: inputEmail }),
+        body: JSON.stringify({
+          email: inputEmail.toLowerCase().trim(),
+          domain: window.location.hostname,
+        }),
       });
 
       const data = await response.json();
