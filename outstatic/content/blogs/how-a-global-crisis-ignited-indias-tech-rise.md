@@ -1,5 +1,6 @@
 ---
 cutOff: '4'
+latest: 'true'
 relatedArticles: ''
 readTime: '3'
 coverImage: '/images/how-a-global-crisis-ignited-indias-tech-rise-YyOT.webp'
