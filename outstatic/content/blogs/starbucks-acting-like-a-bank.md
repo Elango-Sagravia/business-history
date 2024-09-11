@@ -2,7 +2,7 @@
 cutOff: '3'
 relatedArticles: ''
 readTime: '2'
-coverImage: '/images/b26a-k4ND.webp'
+coverImage: '/images/starbucks--the-coffee-chain-acting-like-a-bank-g0NT.jpg'
 description: ''
 slug: 'starbucks-acting-like-a-bank'
 author:
@@ -15,7 +15,7 @@ publishedAt: '2024-08-15T11:30:30.000Z'
 
 Starbucks isn't just your go-to spot for a morning latte; it’s also quietly acting as a financial giant, right under your nose.
 
-![Business History Starbucks Bank](/images/b26a-c2Mz.webp)
+![](/images/starbucks--the-coffee-chain-acting-like-a-bank-QwMD.jpg)
 
 Those Starbucks cards you load up to earn stars? They’re not just for convenience—they’re actually small money vaults. When you add funds to your Starbucks card, you’re effectively giving the company an interest-free loan. And these loans add up. In 2021, customers had a staggering $1.64 billion sitting on their Starbucks cards, an amount that rivals the deposits of some small banks.
 
