@@ -2,7 +2,7 @@
 cutOff: '5'
 relatedArticles: ''
 readTime: '2'
-coverImage: '/images/b8a-Y4Mz.webp'
+coverImage: '/images/the-unbreakable-louis-vuitton-legacy-EzMz.jpg'
 description: ''
 slug: 'louis-vuitton-legacy'
 author:
@@ -19,7 +19,7 @@ Back in 1854, Louis Vuitton began crafting luggage that was not only stylish but
 
 Louis’ son, Georges Vuitton, invented a new lock system that was so secure, he made a bold challenge: he dared the world-famous escape artist Harry Houdini to try and break out of a Louis Vuitton trunk locked with it.
 
-![](/images/b8a-cwND.webp)
+![](/images/the-unbreakable-louis-vuitton-legacy-k2Mj.jpg)
 
 Houdini never took the challenge, but the stunt got everyone talking. The idea that this lock could even stump Houdini made people trust Louis Vuitton even more. It was a daring move, but it showed just how much confidence Louis Vuitton had in their products.
 
