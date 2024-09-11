@@ -2,7 +2,7 @@
 cutOff: '3'
 relatedArticles: ''
 readTime: '2'
-coverImage: '/images/b30a-A0NT.webp'
+coverImage: '/images/airline-food-outsells-pizza-in-a-shocking-twist-cwOT.jpg'
 description: ''
 slug: 'airline-food-outsells-pizza'
 author:
@@ -17,7 +17,7 @@ Domino's Pizza, India's reigning pizza champion with over 2,000 stores, has long
 
 How did an airline outdo a pizza giant in the food business? According to IndiGo's 2023 financial report, the airline's food and beverage profits soared to Rs 532 crore (around $65 million), surpassing Domino's India, which reported Rs 356 crore (approximately $43 million).
 
-![Business History Domino's Pizza Airline](/images/b30a-g0Mj.webp)
+![](/images/airline-food-outsells-pizza-in-a-shocking-twist-QyOD.jpg)
 
 IndiGo's success comes down to a combination of smart strategy and a captive audience. With limited food options on flights, IndiGo has crafted a menu that passengers actually want, and they're willing to pay a premium for it.
 
