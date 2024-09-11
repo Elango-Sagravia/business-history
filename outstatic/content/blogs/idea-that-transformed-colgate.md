@@ -2,7 +2,7 @@
 cutOff: '3'
 relatedArticles: ''
 readTime: '2'
-coverImage: '/images/b11a-YxOT.webp'
+coverImage: '/images/a-tiny-idea-that-transformed-colgate-s-fortune-I0Mj.jpg'
 description: ''
 slug: 'idea-that-transformed-colgate'
 author:
@@ -15,7 +15,7 @@ publishedAt: '2024-08-22T11:44:14.000Z'
 
 Ever wondered how a simple idea can make a fortune? Let’s talk toothpaste.
 
-![business history Colgate toothpaste](/images/b11a-Y4Mz.webp)
+![](/images/a-tiny-idea-that-transformed-colgate-s-fortune-c4NT.jpg)
 
 Back in the 1950s, a big toothpaste company was struggling to boost sales. They were stumped. What could they do to get people to buy more of their product? So, they decided to open the floor to ideas, promising a big cash reward for the best solution.
 
