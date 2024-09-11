@@ -2,7 +2,7 @@
 cutOff: '4'
 relatedArticles: ''
 readTime: '2'
-coverImage: '/images/how-a-blackjack-win-saved-fedex-a-YxND.webp'
+coverImage: '/images/how-a-blackjack-win-saved-fedex-YyOT.jpg'
 description: ''
 slug: 'blackjack-win-saved-fedex'
 author:
@@ -17,7 +17,7 @@ You've heard of the underdog story, right? Well, this one involves a college pap
 
 Meet Fred Smith, the visionary behind FedEx. Back in the 1960s, while still a student at Yale, he had a groundbreaking idea: revolutionize shipping by air. His professor wasn't impressed, giving the paper a C. But Smith was determined.
 
-![business history blackjack saved fedex](/images/how-a-blackjack-win-saved-fedex-a-kzMz.webp)
+![](/images/how-a-blackjack-win-saved-fedex-gwNz.jpg)
 
 Fast forward to 1971, when Smith turned his dream into reality with FedEx. But running a business isn't always a smooth ride. Soaring fuel costs and economic headwinds pushed FedEx to the brink of bankruptcy. With only $5,000 left in the company's coffers, desperation set in.
 
