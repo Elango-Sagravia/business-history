@@ -2,7 +2,7 @@
 cutOff: '4'
 relatedArticles: ''
 readTime: '2'
-coverImage: '/images/how-j.p.-morgan-saved-america-s-economy-a-IwMz.webp'
+coverImage: '/images/how-j.p.-morgan-saved-america-s-economy--E3MT.jpg'
 description: ''
 slug: 'j-p-morgan-saved-economy'
 author:
@@ -17,7 +17,7 @@ You’ve probably heard of J.P. Morgan, the name behind one of the world’s big
 
 Imagine a world without a central bank. Sounds wild, right? Well, that was America until 1913. And when things got really messy during the Panic of 1907, guess who stepped in to save the day? You guessed it, J.P. Morgan.
 
-![business history J.P. Morgan](/images/how-j.p.-morgan-saved-america-s-economy-a-k4NT.webp)
+![](/images/how-j.p.-morgan-saved-america-s-economy--IxOD.jpg)
 
 Morgan was a financial wizard. He could sniff out a bad deal from a mile away and had a knack for turning chaos into profit. More importantly, he had the trust of other bankers and the government. When banks started to crumble like dominoes during the Panic of 1907, it was Morgan who stepped in, throwing his money around to keep the system afloat.
 
