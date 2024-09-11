@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <main>
       <header className="px-4 lg:px-16 py-20 max-w-7xl mx-auto">
-        <h1 className={`text-5xl text-nl_background ${libre.className}`}>
+        <h1 className={`text-4xl text-nl_background ${libre.className}`}>
           Contact us
         </h1>
       </header>

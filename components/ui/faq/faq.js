@@ -7,7 +7,7 @@ export default function Faq() {
       <div className="flex flex-col sm:flex-row">
         <div className="flex-1 shrink-[2]">
           <h3
-            className={`text-3xl text-nl_background text-center sm:text-left ${libre.className}`}
+            className={`text-4xl text-nl_background text-center sm:text-left ${libre.className}`}
           >
             FAQ
           </h3>
