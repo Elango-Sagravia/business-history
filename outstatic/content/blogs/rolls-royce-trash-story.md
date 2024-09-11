@@ -2,7 +2,7 @@
 cutOff: '5'
 relatedArticles: ''
 readTime: '2'
-coverImage: '/images/b52a-EzMz.webp'
+coverImage: '/images/rolls-royce-trash-story---a-king-s-epic-revenge-YxMD.jpg'
 description: ''
 slug: 'rolls-royce-trash-story'
 author:
@@ -23,9 +23,9 @@ During a visit to London in the 1920s, Maharaja Jai Singh Prabhakar walked into 
 
 Offended by their arrogance, the Maharaja left the showroom, only to return later dressed in full royal attire, accompanied by a grand entourage. The salesmen, realizing their mistake, quickly changed their approach, offering him the finest service. In response, the Maharaja purchased every car in the showroom, paid in cash, and ordered additional cars to be shipped to India.
 
-However, instead of showcasing his new collection, the Maharaja decided to teach Rolls Royce a lesson. Once the cars arrived in India, he ordered them to be used for collecting garbage in the streets of Alwar. The luxurious Rolls Royces were now serving as garbage trucks, much to the embarrassment of the company.
+However, instead of showcasing his new collection, the Maharaja decided to teach Rolls Royce a lesson. Once the cars arrived in India, he ordered them to be used to collect garbage in the streets of Alwar. The luxurious Rolls Royce was now serving as garbage trucks, much to the embarrassment of the company.
 
-![business history rolls royce trash](/images/b52a-kxNT.webp)
+![](/images/rolls-royce-trash-story---a-king-s-epic-revenge-UzMz.jpg)
 
 News of this reached Rolls Royce headquarters, and they were alarmed. Concerned about their brand’s reputation, the company executives pleaded with the Maharaja to stop using their cars in this manner. They even offered him additional cars for free as a gesture of apology.
 
