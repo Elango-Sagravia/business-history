@@ -2,7 +2,7 @@
 cutOff: '3'
 relatedArticles: ''
 readTime: '2'
-coverImage: '/images/b36a-g2Nz.webp'
+coverImage: '/images/volvo-won-big-without-spending-big-I2OT.jpg'
 description: ''
 slug: 'volvo-won-big'
 author:
@@ -17,7 +17,7 @@ Why spend millions on a Super Bowl ad when you can grab everyone’s attention f
 
 While other car companies were shelling out huge sums for flashy commercials, Volvo took a different approach. Instead of buying an ad, they encouraged people to tweet about Volvo whenever a competitor’s car ad aired. The idea was simple: nominate a loved one using the hashtag #VolvoContest for a chance to win a new Volvo.
 
-![business history Volvo story](/images/b36a-k3Nz.webp)
+![](/images/volvo-won-big-without-spending-big-QzND.jpg)
 
 The response was huge. As other car brands showcased their latest models on TV, Volvo was trending on Twitter. The #VolvoContest hashtag exploded, with over 55,000 tweets during the game. The buzz generated an estimated $200 million in free media coverage—without Volvo spending a single dollar on a Super Bowl ad.
 
