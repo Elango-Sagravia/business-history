@@ -2,7 +2,7 @@
 cutOff: '4'
 relatedArticles: ''
 readTime: '2'
-coverImage: '/images/how-tata-turned-the-tables-with-jlr-a-k3OT.webp'
+coverImage: '/images/how-tata-turned-the-tables-with-jlr-YyMT.jpg'
 description: ''
 slug: 'tata-turned-tables-with-jlr'
 author:
@@ -17,7 +17,7 @@ Who would have thought that a company once struggling to sell cars in India woul
 
 Today, Jaguar Land Rover (JLR), a crown jewel of Tata Motors, is raking in billions. In 2023 alone, JLR made a staggering £3 billion on sales of over £23 billion, solidifying its place as a massive success story and creating over 15,000 jobs in the UK.
 
-![Business history Tata JLR](/images/how-tata-turned-the-tables-with-jlr-a-MwNz.webp)
+![](/images/how-tata-turned-the-tables-with-jlr-M3Mz.jpg)
 
 But this journey wasn’t without its challenges. It all began with a major setback in the late 90s when Tata Motors was trying to establish itself in the passenger car market. Facing tough competition, the company even considered selling its car business.
 
