@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Business history",
-  description: "One of the leading newsletter",
+  description: "Behind the scenes of legendary businesses.",
 };
 
 export default function RootLayout({ children }) {
