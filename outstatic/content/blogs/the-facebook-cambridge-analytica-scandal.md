@@ -20,7 +20,7 @@ Cambridge Analytica, a British data analytics firm, gained unauthorized access t
 
 The revelation of this breach was a wake-up call for many social media users. Cambridge Analytica allegedly used the harvested data to influence political campaigns, including the 2016 U.S. presidential election and the Brexit referendum. By analyzing personal information, the company created targeted political ads, manipulating voters' perceptions and behavior. This misuse of data sparked outrage and raised serious ethical questions about the role of social media in democratic processes.
 
-![](/images/the-facebook-cambridge-analytica-scandal-cxNT.webp)
+![Mark Zuckerberg, CEO of Meta](/images/the-facebook-cambridge-analytica-scandal-cxNT.webp)
 
 As news of the scandal spread, public trust in Facebook plummeted. Millions of users adjusted their privacy settings, with many deactivating or deleting their accounts entirely. Surveys indicated that 74% of Facebook users took some form of action in response to the breach. The scandal also intensified scrutiny of Facebook’s practices, with regulators and lawmakers demanding answers from the company. Mark Zuckerberg, Facebook’s CEO, was called to testify before the U.S. Congress and the European Parliament, where he apologized and promised to do better.
 
