@@ -9,6 +9,7 @@ import HTMLContent from "./myComponent";
 import content from "@/content/content";
 import SubscriberForm from "../subscriberForm/subscriberForm";
 import RelatedArticles from "../relatedArticles/relatedArticles";
+import garamond from "@/components/garamond";
 
 const SingleBlog = ({ blog, relatedArticles }) => {
   console.log(relatedArticles);
@@ -30,6 +31,16 @@ const SingleBlog = ({ blog, relatedArticles }) => {
             blogCutOff={!isSubscribed ? blog.cutOff : blog.content.length}
             enableCutOff={true}
           />
+          {isSubscribed && blog?.footerBannerTitle?.length > 0 && (
+            <div className="p-4 md:p-10 bg-nl_background text-white mt-6">
+              <p className="text-center text-[12px]">
+                {blog.footerBannerTitle}
+              </p>
+              <p className={`text-xl ${garamond.className} text-center mt-5`}>
+                {blog.footerBannerContent}
+              </p>
+            </div>
+          )}
         </div>
         {isSubscribed && relatedArticles.length > 0 && (
           <RelatedArticles articles={relatedArticles} />

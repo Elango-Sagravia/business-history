@@ -19,6 +19,8 @@ async function getData(params) {
     "readTime",
     "cutOff",
     "relatedArticles",
+    "footerBannerTitle",
+    "footerBannerContent",
   ]);
   if (!post) {
     notFound();
