@@ -1,6 +1,6 @@
 ---
-footerBannerContent: ''
-footerBannerTitle: ''
+footerBannerContent: 'In 1998, Google was almost sold to Excite for just $750,000, but the deal fell through.'
+footerBannerTitle: 'Fact:'
 cutOff: '4'
 latest: 'true'
 relatedArticles: ''
@@ -31,5 +31,3 @@ Faced with this existential challenge, IBM pivoted. In a bold move, IBM shifted 
 This shift marked a true reinvention of IBM. By transforming from a hardware-focused giant into a powerhouse of software and services, IBM demonstrated that adaptability is crucial for survival in the fast-paced tech world. The company's evolution not only preserved its legacy but also established it as a forward-thinking leader in technology.
 
 Today, IBM is an industry leader in AI, cloud computing, and enterprise services, continuing to shape the future of technology just as it has for the past century.
-
-Fact: In 1998, Google was almost sold to Excite for just $750,000, but the deal fell through.
