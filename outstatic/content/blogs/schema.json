@@ -36,6 +36,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Footer Banner Title"
+    },
+    "footerBannerContent": {
+      "required": false,
+      "description": "banner content here",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Footer Banner Content"
     }
   }
 }
