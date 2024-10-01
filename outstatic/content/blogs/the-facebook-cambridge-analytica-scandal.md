@@ -1,4 +1,6 @@
 ---
+footerBannerContent: 'By analyzing personal information, the company created targeted political ads, manipulating voters'' perceptions and behavior.'
+footerBannerTitle: 'title'
 cutOff: '4'
 latest: 'true'
 relatedArticles: ''
