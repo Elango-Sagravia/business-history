@@ -29,6 +29,13 @@
       "fieldType": "Number",
       "dataType": "number",
       "title": "cutOff"
+    },
+    "footerBannerTitle": {
+      "required": false,
+      "description": "enter the title here",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Footer Banner Title"
     }
   }
 }
