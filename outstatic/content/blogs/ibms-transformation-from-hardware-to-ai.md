@@ -1,6 +1,6 @@
 ---
 footerBannerContent: 'In 1998, Google was almost sold to Excite for just $750,000, but the deal fell through.'
-footerBannerTitle: 'Fact:'
+footerBannerTitle: 'Fact'
 cutOff: '4'
 latest: 'true'
 relatedArticles: ''
