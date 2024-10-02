@@ -47,7 +47,7 @@ export default async function Home({ params }) {
         title={policy.title}
         date={changeFormat(policy.publishedAt)}
       />
-      <div className="w-full sm:w-3/4 px-4 md:px-16 pt-8 py-32">
+      <div className="w-full md:w-4/5 lg:w-2/3 px-4 md:px-0 mx-auto  mt-8 max-w-7xl mb-32">
         <SinglePolicyPage policy={policy} />
       </div>
     </main>

@@ -50,13 +50,14 @@ export default async function Home({ params }) {
     "coverImage",
     "readTime",
   ]);
+  const index = blogs.findIndex((blog) => blog.slug === params.slug);
   const relatedBlogsSlugs = blog.relatedArticles.split(",");
   const relatedArticles = blogs.filter((el) =>
     relatedBlogsSlugs.includes(el.slug)
   );
   return (
     <div>
-      <SingleBlog blog={blog} relatedArticles={relatedArticles} />
+      <SingleBlog index={index} blog={blog} relatedArticles={relatedArticles} />
     </div>
   );
 }
