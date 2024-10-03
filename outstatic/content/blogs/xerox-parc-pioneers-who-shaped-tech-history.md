@@ -5,7 +5,7 @@ cutOff: '3'
 latest: 'true'
 relatedArticles: ''
 readTime: '3'
-coverImage: ''
+coverImage: '/images/the-xerox-parc-innovations-that-fueled-silicon-valley-E4NT.webp'
 description: ''
 slug: 'xerox-parc-pioneers-who-shaped-tech-history'
 author:
