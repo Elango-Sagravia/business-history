@@ -64,9 +64,10 @@ const SingleBlog = ({ blog, relatedArticles, index }) => {
                 </div>
               )}
         </div>
-        {isSubscribed && relatedArticles.length > 0 && (
-          <RelatedArticles articles={relatedArticles} />
-        )}
+        {isSubscribed ||
+          (index <= 4 && relatedArticles.length > 0 && (
+            <RelatedArticles articles={relatedArticles} />
+          ))}
       </section>
       {!isSubscribed && (
         <section className="bg-gradient-to-t	from-nl_sec_background to-white px-8 pt-4 pb-16 md:py-16 md:px-16 md:pb-32">
