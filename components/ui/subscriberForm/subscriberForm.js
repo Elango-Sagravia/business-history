@@ -5,6 +5,51 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { useAppContext } from "@/context/appContext";
 import LoadingSpinner from "@/components/ui/loading-spinner";
+
+function detectBrowser() {
+  let userAgent = navigator.userAgent;
+
+  if (userAgent.includes("Chrome") && !userAgent.includes("Edge")) {
+    return "Chrome";
+  } else if (userAgent.includes("Safari") && !userAgent.includes("Chrome")) {
+    return "Safari";
+  } else if (userAgent.includes("Firefox")) {
+    return "Mozilla Firefox";
+  } else if (userAgent.includes("Edg")) {
+    return "Microsoft Edge";
+  } else {
+    return "Other Browser";
+  }
+}
+
+function detectDevice() {
+  let userAgent = navigator.userAgent;
+
+  if (userAgent.includes("iPhone") || userAgent.includes("Android")) {
+    return "Mobile";
+  } else if (userAgent.includes("iPad")) {
+    return "Tablet";
+  } else {
+    return "Desktop";
+  }
+}
+function detectPlatform() {
+  let platform = navigator.platform;
+
+  if (platform.includes("Win")) {
+    return "Windows";
+  } else if (platform.includes("Mac")) {
+    return "MacOS";
+  } else if (platform.includes("Linux")) {
+    return "Linux";
+  } else if (/iPhone|iPad|iPod/.test(navigator.userAgent)) {
+    return "iOS";
+  } else if (/Android/.test(navigator.userAgent)) {
+    return "Android";
+  } else {
+    return "Other Platform";
+  }
+}
 function SubscriberForm({ formClasses }) {
   const { setEmail, setMessage } = useAppContext();
   const [inputEmail, setInputEmail] = useState("");
@@ -14,9 +59,12 @@ function SubscriberForm({ formClasses }) {
 
     try {
       setLoading(true);
-      const response = await fetch(`/api/add-user?email=${inputEmail}`, {
-        method: "GET",
-      });
+      const response = await fetch(
+        `/api/add-user?email=${inputEmail}&browser=${detectBrowser()}&device=${detectDevice()}&platform=${detectPlatform()}`,
+        {
+          method: "GET",
+        }
+      );
       fetch(`https://hooks.zapier.com/hooks/catch/11976044/2u8hsu9/`, {
         mode: "no-cors",
         method: "POST",

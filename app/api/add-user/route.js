@@ -4,6 +4,9 @@ import UAParser from "ua-parser-js";
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
   const email = searchParams.get("email").toLowerCase().trim();
+  const browser = searchParams.get("browser");
+  const device = searchParams.get("device");
+  const platform = searchParams.get("platform");
 
   if (!email) {
     return new Response("Email is required", { status: 400 });
@@ -12,19 +15,6 @@ export async function GET(request) {
   try {
     // Begin transaction
     await query("BEGIN");
-
-    // Step 1: Parse the User-Agent header for browser, device, and platform info
-    const userAgent = request.headers.get("user-agent");
-    const parser = new UAParser(userAgent);
-    const result = parser.getResult();
-
-    const browser = result.browser.name || "Unknown";
-    const device = result.device.type || "Desktop"; // Could be 'mobile', 'tablet', or 'Desktop'
-    const platform = result.os.name || "Unknown"; // Operating system
-
-    // Step 2: Determine if it's web or mobile
-    const webOrMobile =
-      device === "mobile" || device === "tablet" ? "mobile" : "web";
 
     // Step 3: Get the user's IP and determine country using the ip-api.com service
     const ip =
@@ -56,7 +46,7 @@ export async function GET(request) {
       await query(updateUserQuery, [
         browser,
         device,
-        webOrMobile,
+        platform,
         country,
         userId,
       ]);
@@ -72,7 +62,7 @@ export async function GET(request) {
         1,
         browser,
         device,
-        webOrMobile,
+        platform,
         country,
       ]);
       userId = insertResult.rows[0].id;
