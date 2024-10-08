@@ -7,25 +7,25 @@ export async function GET(request) {
   try {
     const result = await query(
       `(
-        SELECT u.id, u.email
-        FROM users u
-        INNER JOIN subscribers s ON u.id = s.user_id
-        WHERE s.website_id = 4
-          AND u.source_id = 1
-          AND u.status = 'subscribed'
-        LIMIT ${limit}
-      )
-      UNION ALL
-      (
-        SELECT u.id, u.email
-        FROM users u
-        INNER JOIN subscribers s ON u.id = s.user_id
-        WHERE s.website_id = 4
-          AND u.source_id = 2
-          AND u.status = 'subscribed'
-        LIMIT ${limit}
-      )
-      LIMIT ${limit};`,
+    SELECT u.id, u.email
+    FROM users u
+    INNER JOIN subscribers s ON u.id = s.user_id
+    WHERE s.website_id = 4
+      AND u.source_id = 1
+      AND s.status = 'subscribed'
+    LIMIT ${limit}
+)
+UNION ALL
+(
+    SELECT u.id, u.email
+    FROM users u
+    INNER JOIN subscribers s ON u.id = s.user_id
+    WHERE s.website_id = 4
+      AND u.source_id = 2
+      AND s.status = 'subscribed'
+    LIMIT ${limit}
+)
+LIMIT ${limit};`,
       []
     );
 
