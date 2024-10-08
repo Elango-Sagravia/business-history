@@ -64,7 +64,7 @@ export async function GET(request) {
       // User doesn't exist, insert a new user
       const insertUserQuery = `
         INSERT INTO users (email, source, browser, device, platform, country, created_at, updated_at)
-        VALUES ($1, $2, $3, $4, $5, $6 NOW(), NOW())
+        VALUES ($1, $2, $3, $4, $5, $6, NOW(), NOW())
         RETURNING id;
       `;
       const insertResult = await query(insertUserQuery, [
