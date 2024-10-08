@@ -1,5 +1,4 @@
 import { query } from "@/lib/db";
-import UAParser from "ua-parser-js";
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
