@@ -52,7 +52,7 @@ export async function GET(request) {
     } else {
       // User doesn't exist, insert a new user
       const insertUserQuery = `
-        INSERT INTO users (email, source, browser, device, platform, country, created_at, updated_at)
+        INSERT INTO users (email, source_id, browser, device, platform, country, created_at, updated_at)
         VALUES ($1, $2, $3, $4, $5, $6, NOW(), NOW())
         RETURNING id;
       `;
