@@ -41,7 +41,7 @@ function detectPlatform() {
   } else if (platform.includes("Mac")) {
     return "MacOS";
   } else if (platform.includes("Linux")) {
-    return "Linux";
+    return "Android";
   } else if (/iPhone|iPad|iPod/.test(navigator.userAgent)) {
     return "iOS";
   } else if (/Android/.test(navigator.userAgent)) {
