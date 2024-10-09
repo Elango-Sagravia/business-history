@@ -43,9 +43,7 @@ const SingleBlog = ({ blog, relatedArticles, index }) => {
                   <p className="text-center text-[12px]">
                     {blog.footerBannerTitle}
                   </p>
-                  <p
-                    className={`text-xl ${garamond.className} text-center mt-5`}
-                  >
+                  <p className={`text-xl ${garamond.className} text-center`}>
                     {blog.footerBannerContent}
                   </p>
                 </div>
