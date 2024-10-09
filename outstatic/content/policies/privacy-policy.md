@@ -34,31 +34,43 @@ In compliance with the CAN-SPAM Act, all emails sent from us will clearly state 
 
 We may also collect non-personal information about you automatically when you access or use the Website. This information may include:
 
-Browser type
+- Browser type
 
-Operating system
+- Operating system
 
-IP address
+- IP address
 
-Pages viewed
+- Pages viewed
 
-Time and date of visits
+- Time and date of visits
 
-Other anonymous statistical data involving your use of the Website
+- Location data
+
+- Web or mobile access details
+
+- Browser and device type
+
+- Other anonymous statistical data involving your use of the Website
 
 **2. How We Use Your Information**
 
 We use the information we collect to:
 
-Provide and manage our newsletter services.
+- Provide and manage our newsletter services.
 
-Personalize your experience on our Website.
+- Personalize your experience on our Website and newsletters.
 
-Improve our Website and newsletter content.
+- Improve our Website, newsletter content, and overall user experience.
 
-Communicate with you about updates, offers, and other information related to our newsletters.
+- Communicate with you about updates, offers, promotions, or other information related to our newsletters and services.
 
-Monitor and analyze usage and trends to improve our Website and services.
+- Monitor and analyze usage, behavior, and trends to improve our Website, newsletter offerings, and services.
+
+- Detect, prevent, and address technical issues, fraud, or illegal activities.
+
+- Comply with legal obligations and enforce our policies where necessary.
+
+- Conduct research and analysis to understand user preferences better and optimize our content.
 
 **3. Sharing Your Information**
 
