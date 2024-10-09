@@ -14,7 +14,7 @@ Business History ("Website") is a newsletter owned and operated by Sagravia LLC 
 
 **1. Information We Collect**
 
-1.1 Personal Information
+**1.1 Personal Information**
 
 We may collect personal information that you voluntarily provide to us when you register on the Website, subscribe to our newsletter, respond to a survey, fill out a form, or otherwise enter information on our Website. This information may include:
 
@@ -28,7 +28,7 @@ We may collect personal information that you voluntarily provide to us when you 
 
 In compliance with the CAN-SPAM Act, all emails sent from us will clearly state who the email is from and provide clear information on how to contact the sender. In addition, all email messages will also contain concise information on how to remove yourself from our mailing list so that you receive no further email communication from us.
 
-1.2 Non-Personal Information
+**1.2 Non-Personal Information**
 
 We may also collect non-personal information about you automatically when you access or use the Website. This information may include:
 
@@ -74,11 +74,11 @@ We use the information we collect to:
 
 We do not sell or rent your personal information to third parties. We may share your information with:
 
-Service Providers: Third-party vendors who help us operate our Website and provide our newsletter services, subject to confidentiality agreements.
+**Service Providers:** Third-party vendors who help us operate our Website and provide our newsletter services, subject to confidentiality agreements.
 
-Legal Requirements: If required by law or in response to valid requests by public authorities (e.g., a court or government agency).
+**Legal Requirements:** If required by law or in response to valid requests by public authorities (e.g., a court or government agency).
 
-Business Transfers: In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred as part of that transaction.
+**Business Transfers:** In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred as part of that transaction.
 
 **4. Data Security**
 
@@ -144,17 +144,17 @@ If you are a resident of the European Economic Area (EEA), you have certain data
 
 As a resident of the EEA, you have the following data protection rights:
 
-The right to access, update, or to delete the information we have on you.
+**The right to access, update, or to delete the information we have on you.**
 
-The right of rectification. You have the right to have your information rectified if that information is inaccurate or incomplete.
+**The right of rectification.** You have the right to have your information rectified if that information is inaccurate or incomplete.
 
-The right to object. You have the right to object to our processing of your Personal Data.
+**The right to object.** You have the right to object to our processing of your Personal Data.
 
-The right of restriction. You have the right to request that we restrict the processing of your personal information.
+**The right of restriction.** You have the right to request that we restrict the processing of your personal information.
 
-The right to data portability. You have the right to be provided with a copy of your information in a structured, machine-readable, and commonly used format.
+**The right to data portability.** You have the right to be provided with a copy of your information in a structured, machine-readable, and commonly used format.
 
-The right to withdraw consent. You also have the right to withdraw your consent at any time where we relied on your consent to process your personal information.
+**The right to withdraw consent.** You also have the right to withdraw your consent at any time where we relied on your consent to process your personal information.
 
 To exercise these rights, please contact us at [contact@businesshistory.co](mailto:contact@businesshistory.co). We may ask you to verify you identity before responding to such requests. Please note that we may retain information as necessary to comply with legal obligations or resolve disputes.
 
@@ -162,17 +162,17 @@ To exercise these rights, please contact us at [contact@businesshistory.co](mail
 
 Under the California Privacy Rights Act (CPRA), residents of California have specific rights regarding their personal information. If you are a California resident, you have the following rights:
 
-The right to know. You have the right to request that we disclose certain information to you about our collection and use of your personal information over the past 12 months.
+**The right to know.** You have the right to request that we disclose certain information to you about our collection and use of your personal information over the past 12 months.
 
-The right to delete. You have the right to request the deletion of personal information we have collected from you, subject to certain exceptions.
+**The right to delete.** You have the right to request the deletion of personal information we have collected from you, subject to certain exceptions.
 
-The right to correct. You have the right to request the correction of inaccurate personal information that we maintain about you.
+**The right to correct.** You have the right to request the correction of inaccurate personal information that we maintain about you.
 
-The right to opt-out. You have the right to direct us to not sell your personal information (opt-out of sale). We do not sell your personal information.
+**The right to opt-out.** You have the right to direct us to not sell your personal information (opt-out of sale). We do not sell your personal information.
 
-The right to limit use and disclosure of sensitive personal information. You have the right to request that we limit the use and disclosure of your sensitive personal information.
+**The right to limit use and disclosure of sensitive personal information.** You have the right to request that we limit the use and disclosure of your sensitive personal information.
 
-The right to non-discrimination. We will not discriminate against you for exercising any of your CPRA rights. This means that we will not deny you goods or services, charge you different prices or rates, or provide you with a different level or quality of goods or services.
+**The right to non-discrimination.** We will not discriminate against you for exercising any of your CPRA rights. This means that we will not deny you goods or services, charge you different prices or rates, or provide you with a different level or quality of goods or services.
 
 To exercise your rights under the CPRA, please contact us at [contact@businesshistory.co](mailto:contact@businesshistory.co). We may need to verify your identity before processing your request, which may involve asking you to provide certain information or documentation.
 
