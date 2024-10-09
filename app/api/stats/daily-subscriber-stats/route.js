@@ -134,8 +134,9 @@ export async function GET(request) {
 
     const result = {
       countries: {
-        count: sumCounts(countriesList), // Sum of all country counts
+        count: countriesList.length, // Sum of all country counts
         list: countriesList,
+        total_subscribers: sumCounts(countriesList),
       },
       desktop: {
         count: sumCounts(desktopBrowsers), // Sum of browsers and platforms counts for desktop
