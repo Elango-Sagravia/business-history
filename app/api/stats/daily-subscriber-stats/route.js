@@ -12,10 +12,11 @@ export async function GET(request) {
        FROM users
        JOIN subscribers ON users.id = subscribers.user_id
        WHERE subscribers.website_id = ${website_id}
+       AND users.source_id = $2
        AND DATE(subscribers.created_at) = $1
        GROUP BY users.country
        ORDER BY total_subscribers DESC;`,
-      [date]
+      [date, 1]
     );
 
     // Desktop: browser and platform counts
@@ -24,11 +25,12 @@ export async function GET(request) {
        FROM users
        JOIN subscribers ON users.id = subscribers.user_id
        WHERE subscribers.website_id = ${website_id}
+       AND users.source_id = $2
        AND DATE(subscribers.created_at) = $1
        AND users.device = 'Desktop'
        GROUP BY users.browser
        ORDER BY total_subscribers DESC;`,
-      [date]
+      [date, 1]
     );
 
     const platformDesktopResult = await query(
@@ -36,11 +38,12 @@ export async function GET(request) {
        FROM users
        JOIN subscribers ON users.id = subscribers.user_id
        WHERE subscribers.website_id = ${website_id}
+       AND users.source_id = $2
        AND DATE(subscribers.created_at) = $1
        AND users.device = 'Desktop'
        GROUP BY users.platform
        ORDER BY total_subscribers DESC;`,
-      [date]
+      [date, 1]
     );
 
     // Mobile: browser and platform counts
@@ -49,11 +52,12 @@ export async function GET(request) {
        FROM users
        JOIN subscribers ON users.id = subscribers.user_id
        WHERE subscribers.website_id = ${website_id}
+       AND users.source_id = $2
        AND DATE(subscribers.created_at) = $1
        AND users.device = 'Mobile'
        GROUP BY users.browser
        ORDER BY total_subscribers DESC;`,
-      [date]
+      [date, 1]
     );
 
     const platformMobileResult = await query(
@@ -61,11 +65,12 @@ export async function GET(request) {
        FROM users
        JOIN subscribers ON users.id = subscribers.user_id
        WHERE subscribers.website_id = ${website_id}
+       AND users.source_id = $2
        AND DATE(subscribers.created_at) = $1
        AND users.device = 'Mobile'
        GROUP BY users.platform
        ORDER BY total_subscribers DESC;`,
-      [date]
+      [date, 1]
     );
 
     // Tablet: browser and platform counts
@@ -74,11 +79,12 @@ export async function GET(request) {
        FROM users
        JOIN subscribers ON users.id = subscribers.user_id
        WHERE subscribers.website_id = ${website_id}
+       AND users.source_id = $2
        AND DATE(subscribers.created_at) = $1
        AND users.device = 'Tablet'
        GROUP BY users.browser
        ORDER BY total_subscribers DESC;`,
-      [date]
+      [date, 1]
     );
 
     const platformTabletResult = await query(
@@ -86,11 +92,12 @@ export async function GET(request) {
        FROM users
        JOIN subscribers ON users.id = subscribers.user_id
        WHERE subscribers.website_id = ${website_id}
+       AND users.source_id = $2
        AND DATE(subscribers.created_at) = $1
        AND users.device = 'Tablet'
        GROUP BY users.platform
        ORDER BY total_subscribers DESC;`,
-      [date]
+      [date, 1]
     );
 
     // Helper function to sum up counts
