@@ -8,6 +8,7 @@ export async function GET(request) {
     const user_id = searchParams.get("user_id");
     const email = searchParams.get("email"); // Assuming email is passed as a query parameter
     const campaign_id = searchParams.get("campaign_id");
+    const website_id = 4; // Assuming website_id is a constant
 
     // Validate input
     if (!user_id || !campaign_id || !email) {
@@ -36,11 +37,11 @@ export async function GET(request) {
 
     // Update the status of the user in the users table if user_id and email match
     const updateResult = await query(
-      `UPDATE users 
+      `UPDATE subscribers 
        SET status = 'unsubscribed'
-       WHERE id = $1 AND email = $2
+       WHERE user_id = $1 AND  website_id = $2
        RETURNING *`,
-      [user_id, email]
+      [user_id, website_id]
     );
 
     // Check if the user was found and updated
