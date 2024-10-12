@@ -60,7 +60,9 @@ function SubscriberForm({ formClasses }) {
     try {
       setLoading(true);
       const response = await fetch(
-        `/api/add-user?email=${inputEmail}&browser=${detectBrowser()}&device=${detectDevice()}&platform=${detectPlatform()}`,
+        `/api/add-user?email=${inputEmail}&browser=${detectBrowser()}&device=${detectDevice()}&platform=${detectPlatform()}&referrer=${
+          document.referrer
+        }`,
         {
           method: "GET",
         }
