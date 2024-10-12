@@ -19,6 +19,18 @@ export async function GET(request) {
       [date, 1]
     );
 
+    const referrerResult = await query(
+      `SELECT users.referrer, CAST(COUNT(*) AS INTEGER) AS total_subscribers
+       FROM users
+       JOIN subscribers ON users.id = subscribers.user_id
+       WHERE subscribers.website_id = ${website_id}
+       AND users.source_id = $2
+       AND DATE(subscribers.created_at) = $1
+       GROUP BY users.referrer
+       ORDER BY total_subscribers DESC;`,
+      [date, 1]
+    );
+
     // Desktop: browser and platform counts
     const browserDesktopResult = await query(
       `SELECT users.browser, CAST(COUNT(*) AS INTEGER) AS total_subscribers
@@ -109,6 +121,11 @@ export async function GET(request) {
       count: row.total_subscribers,
     }));
 
+    const referrerList = referrerResult.rows.map((row) => ({
+      referrer: row.referrer,
+      count: row.total_subscribers,
+    }));
+
     const desktopBrowsers = browserDesktopResult.rows.map((row) => ({
       browser: row.browser,
       count: row.total_subscribers,
@@ -144,6 +161,10 @@ export async function GET(request) {
         count: countriesList.length, // Sum of all country counts
         list: countriesList,
         total_subscribers: sumCounts(countriesList),
+      },
+      referrers: {
+        list: referrerList,
+        total_subscribers: sumCounts(referrerList),
       },
       desktop: {
         count: sumCounts(desktopBrowsers), // Sum of browsers and platforms counts for desktop
