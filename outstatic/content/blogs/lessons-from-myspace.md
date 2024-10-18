@@ -1,6 +1,6 @@
 ---
 footerBannerContent: '"The customer is always right." — Harry Gordon Selfridge'
-footerBannerTitle: '"The customer is always right." — Harry Gordon Selfridge'
+footerBannerTitle: ''
 cutOff: '3'
 latest: 'true'
 relatedArticles: ''
