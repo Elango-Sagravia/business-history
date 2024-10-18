@@ -1,5 +1,5 @@
 ---
-footerBannerContent: ''
+footerBannerContent: '"The customer is always right." — Harry Gordon Selfridge'
 footerBannerTitle: '"The customer is always right." — Harry Gordon Selfridge'
 cutOff: '3'
 latest: 'true'
