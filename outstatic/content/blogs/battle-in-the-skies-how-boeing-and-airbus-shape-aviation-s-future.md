@@ -12,7 +12,7 @@ author:
   name: ''
   picture: ''
 status: 'published'
-title: 'Battle in the Skies: How Boeing and Airbus Shape Aviation''s Future'
+title: 'Battle in the Skies: Boeing, Airbus, why not others?'
 publishedAt: '2024-10-02T11:33:49.089Z'
 ---
 
