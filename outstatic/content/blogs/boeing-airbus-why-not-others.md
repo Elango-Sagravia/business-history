@@ -7,12 +7,12 @@ relatedArticles: ''
 readTime: '3'
 coverImage: '/images/the-boeing-vs.-airbus-rivalry-k4Mz.webp'
 description: ''
-slug: 'battle-in-the-skies-how-boeing-and-airbus-shape-aviation-s-future'
+slug: 'boeing-airbus-why-not-others'
 author:
   name: ''
   picture: ''
 status: 'published'
-title: 'Battle in the Skies: Boeing, Airbus, why not others?'
+title: 'Boeing, Airbus, why not others?'
 publishedAt: '2024-10-02T11:33:49.089Z'
 ---
 
