@@ -6,7 +6,6 @@ import Image from "next/image";
 
 import libre from "@/components/libre-font";
 import content from "@/content/content";
-import { Divide } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function Hero() {
@@ -14,7 +13,7 @@ export default function Hero() {
 
   return (
     <div className="bg-nl_sec_background">
-      <div className="flex px-4 md:px-16 py-32 bg-nl_sec_background max-w-7xl mx-auto min-h-[650px]">
+      <div className="flex px-4 md:px-16 py-20 lg:py-32 bg-nl_sec_background max-w-7xl mx-auto lg:min-h-[650px]">
         <div className="flex-1">
           <h1
             className={`${cn(
