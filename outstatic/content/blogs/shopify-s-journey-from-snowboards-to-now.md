@@ -11,7 +11,7 @@ slug: 'shopify-s-journey-from-snowboards-to-now'
 author:
   name: ''
   picture: ''
-status: 'draft'
+status: 'published'
 title: 'Shopify''s Journey from Snowboards to Now'
 publishedAt: '2024-10-22T11:09:45.453Z'
 ---
