@@ -11,7 +11,7 @@ slug: 'lessons-from-lehman-brothers'
 author:
   name: ''
   picture: ''
-status: 'draft'
+status: 'published'
 title: 'Lessons from Lehman Brothers'
 publishedAt: '2024-10-23T11:13:03.019Z'
 ---
